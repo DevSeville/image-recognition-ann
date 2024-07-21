@@ -59,8 +59,8 @@ class img2csv:
         print("CSV files success.")
 
 img2csv.start()
-input_directory = 'D:/ai stuff/projects/face recognition/final project/facetrain/CSV/'
-output_file_path = 'D:/ai stuff/projects/face recognition/final project/facetrain/CSV/merged_testdata.csv'
+input_directory = 'embedpath/facetrain/CSV/'
+output_file_path = 'embedpath/CSV/merged_testdata.csv'
 img2csv.conscsv(input_directory, output_file_path)
 #-------------------------------------------------------------------------------------------------------
 #train data prep
@@ -116,8 +116,8 @@ class img2csv:
         print("CSV files 1 success.")
 
 img2csv.start()
-input_directory = 'D:/ai stuff/projects/face recognition/final project/facetarget/CSV/'
-output_file_path = 'D:/ai stuff/projects/face recognition/final project/facetarget/CSV/merged_traindata.csv'
+input_directory = 'embedpath/CSV/'
+output_file_path = 'embedpath/CSV/merged_traindata.csv'
 img2csv.conscsv(input_directory, output_file_path)
 #---------------------------------------------------------------------------------------------------------------------
 #ann self
