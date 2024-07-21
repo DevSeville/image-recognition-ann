@@ -7,7 +7,7 @@ import csv
 import numpy as np
 from scipy.special import expit, logit
 import matplotlib.pyplot as plt
-class img2csv:
+class img2csv1:
     def start():
         x=0
         b=os.listdir()
@@ -58,13 +58,13 @@ class img2csv:
 
         print("CSV files success.")
 
-img2csv.start()
+img2csv1.start()
 input_directory = 'embedpath/facetrain/CSV/'
 output_file_path = 'embedpath/CSV/merged_testdata.csv'
-img2csv.conscsv(input_directory, output_file_path)
+img2csv1.conscsv(input_directory, output_file_path)
 #-------------------------------------------------------------------------------------------------------
 #train data prep
-class img2csv:
+class img2csv2:
     def start():
         x=0
         b=os.listdir()
@@ -115,10 +115,10 @@ class img2csv:
 
         print("CSV files 1 success.")
 
-img2csv.start()
+img2csv2.start()
 input_directory = 'embedpath/CSV/'
 output_file_path = 'embedpath/CSV/merged_traindata.csv'
-img2csv.conscsv(input_directory, output_file_path)
+img2csv2.conscsv(input_directory, output_file_path)
 #---------------------------------------------------------------------------------------------------------------------
 #ann self
 class NeuralNetwork:
